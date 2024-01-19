@@ -6,10 +6,61 @@
     <title>Experiene</title>
 </head>
 <body>
-    <pre>
-        Assistant Diretor(ICT),Bangladesh Bank
-        Ex: Software Engineer, SRBD
-        Ex: Software Developer, Pubali Bank PLC
-    </pre>
+    <header>
+
+    </header>
+    <main>
+        <!--Form Tag Html-->
+        <form action="/action.php">
+            Enter username
+            <label for="username">
+                <input type="text" placeholder="Your username">
+            </label>
+            <br/>
+            Enter Password
+            <label for="password">
+                <input type="password" placeholder="Your password">
+            </label>
+            <br />
+            <h2> Enter you marital status</h2>
+            <label for="Y">
+                <input type="radio" value="Married" name="Status" id="Y">Married
+            </label>
+            <label for="N">  
+                <input type="radio" value="Unmarried" name="Status" id="N">Unmarried
+            </label>  
+            <br />
+            <h2> Enter favourite Social site</h2>
+            <label for="Y">
+                <input type="checkbox" value="Facebook" name="Site" id="Y">Facebook
+            </label>
+            <label for="N">  
+                <input type="checkbox" value="Twiter" name="Site" id="N">Twiter
+            </label>  
+            <br />   
+            <textarea name="Feedback" id="F" placeholder="Enter your feedback here " rows="5" >Feedback
+            </textarea>  
+            <br />
+            Select city
+            <select name="city">
+                <option value="Chittagong"> Chittagong</option>
+                <option value="Dhaka"> Dhaka</option>
+
+            </select>
+            <br/>
+
+            <input type="Submit" value="SUBMIT">
+
+        </form>
+        <pre>
+            Assistant Diretor(ICT),Bangladesh Bank
+            Ex: Software Engineer, SRBD
+            Ex: Software Developer, Pubali Bank PLC
+        </pre>
+    </main>
+    <footer>
+
+    </footer>
+    
 </body>
 </html>
